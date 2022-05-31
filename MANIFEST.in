@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vertex *.css
+recursive-include vertex *.csv
+recursive-include vertex *.html
+recursive-include vertex *.ico
+recursive-include vertex *.js
+recursive-include vertex *.json
+recursive-include vertex *.md
+recursive-include vertex *.png
+recursive-include vertex *.py
+recursive-include vertex *.svg
+recursive-include vertex *.txt
+recursive-exclude vertex *.pyc
